@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit';
+    line-height: 1.2rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    background: hsl(216, 50%, 16%);
+    color: #ffffff;
+    width: 700px;
+    padding: 20px 20px;
+    border-radius: 24px;
+    
+}
+.image-container{
+    position: relative;
+    width: 100%;
+
+}
+.image-container img{
+    width: 100%;
+    display: block;
+}
+.hover-image{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+.hover-image img{
+    position: absolute;
+    width: 40%;
+    display: block;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.text-container{
+    width: 100%;
+    grid-area: write-up;
+}
+.text-container h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 70%;
+}
+.text-container span{
+    opacity: 50%;
+    font-size: 15px;
+    width: 85%;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price h3{
+    color: rgb(0, 255, 221);
+}
+.price span{
+    opacity: 50%;
+}
+.jules{
+    display: flex;
+    align-items: center;
+}
+.jules img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.jules span{
+    opacity: 50%;
+}
+hr{
+    opacity: 50%;
+}
